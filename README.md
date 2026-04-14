@@ -1,7 +1,5 @@
 # Lab Environment Handbook
 
-**Suggested repository description:** A public, bilingual (English/Japanese) guide for new lab members and course participants to set up their coding environment.
-
 This repository is a public documentation handbook designed to help new lab members and course participants set up their coding environment smoothly. It is **not** an application codebase — it is a collection of Markdown guides published via GitHub Pages.
 
 ## Intended Audience
