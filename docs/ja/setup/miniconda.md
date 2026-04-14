@@ -12,9 +12,16 @@ Miniconda は `conda` パッケージマネージャーを含む軽量な Python
 
 ## 2. Miniconda のインストール（macOS / Linux / WSL）
 
+ダウンロードした `.sh` インストーラーを実行します：
+
 ```bash
-bash Miniconda3-latest-Linux-x86_64.sh
+bash <ダウンロードした .sh ファイル名>
 ```
+
+例：
+- **Linux (x86_64)**：`bash Miniconda3-latest-Linux-x86_64.sh`
+- **macOS (Intel)**：`bash Miniconda3-latest-MacOSX-x86_64.sh`
+- **macOS (Apple Silicon)**：`bash Miniconda3-latest-MacOSX-arm64.sh`
 
 プロンプトに従ってインストールします。conda を初期化するか聞かれたら `yes` と答えてください。
 
