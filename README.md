@@ -1,4 +1,4 @@
-# Lab Handbook / ラボハンドブック
+# Lab PC setup / ラボ PC セットアップ メモ
 
 ## Purpose / 目的
 - EN: This repository is a documentation handbook for lab members and course participants. It provides setup and usage guides for the development environment.
