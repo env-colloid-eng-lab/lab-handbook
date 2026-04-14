@@ -26,13 +26,15 @@ Follow the installer for your operating system (Windows, macOS, or Linux).
 
 ## 4. Verify Your Setup
 
-Open a new terminal in VS Code (Terminal → New Terminal) and run:
+Check the selected interpreter in the VS Code status bar. It should show the Python interpreter from your Miniconda environment.
+
+If you want to verify it in the integrated terminal, first activate the same Miniconda environment, then run:
 
 ```bash
 python --version
 ```
 
-You should see a version number like `Python 3.11.x`.
+After activating the environment, you should see a version number like `Python 3.11.x`.
 
 ## 5. Useful Extensions (Optional)
 
