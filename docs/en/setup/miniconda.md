@@ -8,13 +8,19 @@ Go to the official Miniconda page and download the installer for your OS:
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 
 - **Windows**: Download the `.exe` installer and run it (or use the Linux installer inside WSL).
-- **macOS / Linux**: Download the `.sh` installer.
+- **Linux / WSL**: Download the `.sh` installer, for example `Miniconda3-latest-Linux-x86_64.sh` on most Intel/AMD systems.
+- **macOS (Intel)**: Download the `.sh` installer `Miniconda3-latest-MacOSX-x86_64.sh`.
+- **macOS (Apple Silicon)**: Download the `.sh` installer `Miniconda3-latest-MacOSX-arm64.sh`.
 
 ## 2. Install Miniconda (macOS / Linux / WSL)
 
+Run the installer file you downloaded:
+
 ```bash
-bash Miniconda3-latest-Linux-x86_64.sh
+bash <downloaded-installer>.sh
 ```
+
+For example, on Linux / WSL you might run `bash Miniconda3-latest-Linux-x86_64.sh`, while on macOS you would use the matching `MacOSX` installer for your Intel or Apple Silicon system.
 
 Follow the prompts. When asked whether to initialize conda, answer `yes`.
 
