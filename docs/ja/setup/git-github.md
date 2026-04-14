@@ -44,17 +44,35 @@ brew install gh
 # Ubuntu / WSL
 sudo apt install gh
 
-# 認証
+# 認証（対話形式で進めます）
 gh auth login
 ```
+
+`gh auth login` の途中で「What is your preferred protocol for Git operations?」と聞かれたら、
+- SSH 鍵を設定済みの場合 → **SSH** を選択
+- SSH 鍵を持っていない場合 → **HTTPS** を選択してください。
 
 ## 4. 研究室でよく使う最小ワークフロー
 
 ### 4-1. リポジトリをローカルにクローン
 
+**方法 A（SSH）を選んだ場合：**
+
 ```bash
 git clone git@github.com:<ユーザー名>/<リポジトリ名>.git
 cd <リポジトリ名>
+```
+
+**方法 B（GitHub CLI / HTTPS）を選んだ場合：**
+
+```bash
+# gh コマンドで clone する（推奨）
+gh repo clone <ユーザー名>/<リポジトリ名>
+cd <リポジトリ名>
+
+# または HTTPS URL を直接指定する
+# git clone https://github.com/<ユーザー名>/<リポジトリ名>.git
+# cd <リポジトリ名>
 ```
 
 ### 4-2. 変更を保存して GitHub に反映
